@@ -1,17 +1,20 @@
+package loops;
+
 import java.util.Scanner;
 
-public class L {
+public class M {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
         long n = sc.nextLong();
-        long sum = 0;
+        long rev = 0;
 
         while (n > 0) {
-            sum += (n % 10);
+            long digit = n % 10;
+            rev = rev * 10 + digit;
             n = n / 10;
         }
 
-        System.out.println(sum);
+        System.out.println(rev);
     }
 }

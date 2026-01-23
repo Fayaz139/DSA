@@ -1,5 +1,6 @@
+package loops;
+
 import java.util.Scanner;
-import java.math.BigInteger;
 
 public class J {
     public static void main(String[] args) {
