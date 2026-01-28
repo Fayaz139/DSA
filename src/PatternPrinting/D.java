@@ -1,3 +1,5 @@
+package PatternPrinting;
+
 import java.util.Scanner;
 
 public class D {
