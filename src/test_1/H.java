@@ -1,3 +1,5 @@
+package test_1;
+
 import java.util.Scanner;
 
 public class H {
